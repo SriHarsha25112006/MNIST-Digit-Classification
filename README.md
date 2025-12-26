@@ -1,5 +1,3 @@
-This is perfect. The screenshot confirms you have a fresh, empty repository ready to go.However, looking at your second screenshot (the black background with code), I noticed your README.md file inside VS Code still looks like a single "wall of text" without any line breaks. If you upload it like that, it will look broken on GitHub again.Here is the plan to fix the file and then upload it to your new repository.Step 1: Fix the README.md File (Crucial)Go to VS Code and open README.md.Delete everything inside that file.Copy and Paste the code block below. It includes the correct "hidden" line break characters that GitHub needs to format the text properly.Markdown# MNIST Digit Classification: CNN vs. Simple NN
-
 This project implements and compares two deep learning models to classify handwritten digits from the famous **MNIST dataset**. 
 
 It demonstrates the "Hello World" of Computer Vision using **TensorFlow/Keras**, highlighting the significant performance gap between a standard Dense Neural Network and a Convolutional Neural Network (CNN).
